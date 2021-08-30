@@ -73,10 +73,20 @@ html{}
   
 /* BODY */
 body{
+<<<<<<< HEAD
     font-family: 'Lato', sans-serif;
     flex-direction: column;
     min-width: 320px;
     display: flex;
+=======
+
+    background-color: #00043e;
+
+    flex-direction: column;
+    min-width: 320px;
+    display: flex;
+
+>>>>>>> d6209519c4c9b88352954bddef17925b92d11999
 }
 /* BODY */
   
@@ -246,6 +256,7 @@ section.secaoCursos ul li img {
   
 
 /* MEDIA QUERIES */
+<<<<<<< HEAD
 @media screen and (min-width: 400px) {
     body{
         flex-direction: column;
@@ -253,6 +264,15 @@ section.secaoCursos ul li img {
         display: flex;
     } 
 }
+=======
+    @media screen and (min-width: 400px) {
+        body{
+            flex-direction: column;
+            width: 100%;
+            display: flex;
+        } 
+    }
+>>>>>>> d6209519c4c9b88352954bddef17925b92d11999
   
 @media screen and (min-width: 800px) {}
 /* MEDIA QUERIES */
