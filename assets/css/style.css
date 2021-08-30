@@ -68,9 +68,13 @@ html{}
   
 /* BODY */
 body{
+
+    background-color: #00043e;
+
     flex-direction: column;
     min-width: 320px;
     display: flex;
+
 }
 /* BODY */
   
