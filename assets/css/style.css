@@ -67,7 +67,9 @@ html{}
 /* HTML */
   
 /* BODY */
-body{}
+body{
+    background-color: #00043e;
+}
 /* BODY */
   
 /* HEADER */
