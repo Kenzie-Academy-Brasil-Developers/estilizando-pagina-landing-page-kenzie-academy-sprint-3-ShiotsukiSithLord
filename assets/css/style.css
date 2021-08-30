@@ -29,7 +29,12 @@ family=Lato -> Títulos, textos
 /* FONTS */
 
 /* VARIÁVEIS */
-:root{}
+:root{
+    --cor-header: #00043e;
+    --cor-titulos: #FFFFFF;
+    --cor-cinza: #818181;
+    --font-h2: 'Montserrat', sans-serif;
+}
   
 /* GERAL */
 html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
@@ -68,6 +73,12 @@ html{}
   
 /* BODY */
 body{
+<<<<<<< HEAD
+    font-family: 'Lato', sans-serif;
+    flex-direction: column;
+    min-width: 320px;
+    display: flex;
+=======
 
     background-color: #00043e;
 
@@ -75,12 +86,33 @@ body{
     min-width: 320px;
     display: flex;
 
+>>>>>>> d6209519c4c9b88352954bddef17925b92d11999
 }
 /* BODY */
   
 /* HEADER */
-header{}
+header{
+    background-color: var(--cor-header);
+}
 /* HEADER */
+img[alt="Logo Kenzie Academy"] {
+    width: 10%;
+    padding: 5%;
+}
+
+figcaption {
+    display: none;
+}
+
+nav ul li a{
+    display: none;
+}
+
+img[alt="Ícone menu"] {
+    float: right;
+    padding: 5%;
+    cursor: pointer;
+}
   
 /* FOOTER */
 footer{}
@@ -88,7 +120,126 @@ footer{}
 
 /* INICIAL */
 main{}
+
 /* INICIAL */
+section.secaoDestaque {
+    background-color: var(--cor-header);
+    text-align: center;
+    color: var(--cor-titulos);
+}
+
+section.secaoDestaque h2 {
+    font-family: var(--font-h2);
+    font-size: 2.5em;
+    font-weight: normal;
+    padding: 5%;
+}
+
+section.secaoDestaque p {
+    font-size: 1.3em;
+    padding: 5% 0;
+}
+
+div.secaoDestaqueFormulario {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    width: 40%;
+    padding: 7px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+button[type="button"] {
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #007aff;
+    padding: 7px;
+    color: var(--cor-titulos);
+    cursor: pointer; 
+}
+
+div.flex-col {
+    margin: 20%;
+}
+
+div.flex-col h2 {
+    font-family: var(--font-h2);
+    font-size: 1.3em;
+    color: #303030;
+}
+
+div.flex-col p {
+    color: #303030;
+    line-height: 1.6;
+    font-size: 1em;
+    padding: 50px 0;
+}    
+
+div.flex-col span {
+    color: var(--cor-cinza);
+    line-height: 1.5;
+    font-size: 1em;
+}    
+
+div.flex-col button {
+    margin-top: 10%;
+    width: 100%;
+    padding: 5%;
+    border-radius: 6px;
+    border: 1px solid #8181819d;
+    background-color: var(--cor-titulos);
+    font-size: 15px;
+    cursor: pointer;
+}    
+
+img[alt="python"], img[alt="Java Script"] {
+    width: 100%;
+    display: flex;
+}
+
+div.javascript h2 {
+    font-family: var(--font-h2);
+    text-align: center;
+    padding-bottom: 20%;
+    margin-top: -40px;
+}
+
+div.flex-col ul li{
+    list-style: disc;
+    color: var(--cor-cinza);
+    margin-left: 10%;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+section.secaoCursos {
+    display: flex;
+    flex-direction: column;
+}
+
+section.secaoCursos h2 {
+    font-family: var(--font-h2);
+    text-align: center;
+    font-size: 2em;
+    color: #303030;
+}
+
+section.secaoCursos p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #303030;
+    margin: 10% 0;
+}
+
+section.secaoCursos ul li img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 
 /* EXTRAS */
 
@@ -105,6 +256,15 @@ main{}
   
 
 /* MEDIA QUERIES */
+<<<<<<< HEAD
+@media screen and (min-width: 400px) {
+    body{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+    } 
+}
+=======
     @media screen and (min-width: 400px) {
         body{
             flex-direction: column;
@@ -112,6 +272,7 @@ main{}
             display: flex;
         } 
     }
+>>>>>>> d6209519c4c9b88352954bddef17925b92d11999
   
-    @media screen and (min-width: 800px) {}
+@media screen and (min-width: 800px) {}
 /* MEDIA QUERIES */
