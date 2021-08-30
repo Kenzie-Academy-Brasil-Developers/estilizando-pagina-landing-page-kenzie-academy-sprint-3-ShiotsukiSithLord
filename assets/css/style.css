@@ -68,7 +68,13 @@ html{}
   
 /* BODY */
 body{
+
     background-color: #00043e;
+
+    flex-direction: column;
+    min-width: 320px;
+    display: flex;
+
 }
 /* BODY */
   
@@ -99,7 +105,13 @@ main{}
   
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
+    @media screen and (min-width: 400px) {
+        body{
+            flex-direction: column;
+            width: 100%;
+            display: flex;
+        } 
+    }
   
     @media screen and (min-width: 800px) {}
 /* MEDIA QUERIES */
