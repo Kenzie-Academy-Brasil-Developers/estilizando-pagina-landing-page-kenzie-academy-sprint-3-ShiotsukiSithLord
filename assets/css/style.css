@@ -452,5 +452,11 @@ form #mensagem{
     } 
 }
   
-@media screen and (min-width: 800px) {}
+@media screen and (min-width: 800px) {
+.secaoCursos{
+    display: flex;
+    flex-direction: row;
+}
+
+}
 /* MEDIA QUERIES */
