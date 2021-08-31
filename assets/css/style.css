@@ -78,6 +78,7 @@ body{
     flex-direction: column;
     min-width: 320px;
     display: flex;
+
 }
 /* BODY */
   
@@ -225,6 +226,72 @@ div.flex-col ul li{
 }
 
 section.secaoCursos {
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.secaoCursos ul{
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secaoCursos ul li{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section.secaoCursos h2 {
+    font-family: var(--font-h2);
+    text-align: center;
+    font-size: 2em;
+    color: #303030;
+}
+
+section.secaoCursos p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #303030;
+    margin: 10% 0;
+}
+
+section.secaoCursos ul li img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section.secaoCursos {
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.secaoCursos ul{
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secaoCursos ul li{
+    align-items: center;
     display: flex;
     flex-direction: column;
 }
@@ -249,6 +316,135 @@ section.secaoCursos ul li img {
     justify-content: center;
 }
 
+.secaoCalendar{
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 1900px;
+    display: flex;
+
+}
+
+.calendario{
+    height: 1750px;
+    flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.calendario li{
+    margin: 0;
+    width: 240px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+}
+
+.calendario li h3{
+    height: 91.8px;
+    padding-bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.calendario li p{
+    align-items: end;
+    text-align: center;
+    display: flex;
+    padding: 0% 5%;
+    height: 189px;
+}
+
+.calendario-data{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    height: 97.2px;
+    color: white;
+    background-color: #00002e;
+    align-items: center;
+}
+
+.calendario-data-rodape{
+    border: black solid 1px;
+    justify-content: space-evenly;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendario-data-rodape span{
+    font-size: 30px;
+}
+
+.calendario-data-rodape button{
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: dodgerblue;
+    padding: 12px 50px;
+}
+
+.secaoContato{
+    margin: 15% 0%;
+    align-items: center;
+    display: flex;
+    background-color: #818181;
+    height: 740px;
+}
+
+.secaoContato h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.secaoContato-informacoes{
+    width: 246px;
+}
+
+.secaoContato .flex{
+    flex-direction: column;
+    display: flex;
+    width: 100vw;
+
+}
+
+.secaoContato .flex-col{
+    margin: 18px 0px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+form label{
+    display: none;
+}
+
+form input{
+    width: 220px;
+    padding: 7px 6px;
+    border-radius: 4px;
+    margin: 5px 1px;
+}
+
+form input[type="submit"]{
+    width: 50px;
+    float: right;
+}
+
+form #mensagem{
+    margin-top: 10px;
+    padding: 7px 5px;
+    border-radius: 4px;
+   height: 80px;
+   width: 220px;
+}
+
 /* EXTRAS */
 
 /* para estilizar a scrollbar */
@@ -271,6 +467,7 @@ section.secaoCursos ul li img {
         display: flex;
     } 
 }
+
   
 @media screen and (min-width: 800px) {
     body{
@@ -360,6 +557,7 @@ section.secaoCursos ul li img {
     div.container-python {
         display: flex;
     }
+
   
     div.flex-col.javascript {
         width: 60%;
