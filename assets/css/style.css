@@ -73,20 +73,13 @@ html{}
   
 /* BODY */
 body{
-<<<<<<< HEAD
     font-family: 'Lato', sans-serif;
     flex-direction: column;
     min-width: 320px;
     display: flex;
-=======
 
-    background-color: #00043e;
+    
 
-    flex-direction: column;
-    min-width: 320px;
-    display: flex;
-
->>>>>>> d6209519c4c9b88352954bddef17925b92d11999
 }
 /* BODY */
   
@@ -217,6 +210,26 @@ div.flex-col ul li{
 }
 
 section.secaoCursos {
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.secaoCursos ul{
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secaoCursos ul li{
+    align-items: center;
     display: flex;
     flex-direction: column;
 }
@@ -315,32 +328,61 @@ justify-content: space-between;
 }
 
 .secaoContato{
-    margin: 25%;
+    margin: 15% 0%;
+    align-items: center;
     display: flex;
-    width: 250px;
     background-color: #818181;
-    height: 580px;
+    height: 740px;
+}
+
+.secaoContato h2{
+    font-size: 30px;
+    text-align: center;
 }
 
 .secaoContato-informacoes{
     width: 246px;
 }
 
-.flex{
-    height: 500px;
+.secaoContato .flex{
     flex-direction: column;
     display: flex;
     width: 100vw;
 
 }
 
-.flex-col{
+.secaoContato .flex-col{
+    margin: 18px 0px;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     display: flex;
-    height: 250px;
 }
+
+form label{
+    display: none;
+}
+
+form input{
+    width: 220px;
+    padding: 7px 6px;
+    border-radius: 4px;
+    margin: 5px 1px;
+}
+
+form input[type="submit"]{
+    width: 50px;
+    float: right;
+}
+
+form #mensagem{
+    margin-top: 10px;
+    padding: 7px 5px;
+    border-radius: 4px;
+   height: 80px;
+   width: 220px;
+}
+
 /* EXTRAS */
 
 /* para estilizar a scrollbar */
@@ -356,7 +398,6 @@ justify-content: space-between;
   
 
 /* MEDIA QUERIES */
-<<<<<<< HEAD
 @media screen and (min-width: 400px) {
     body{
         flex-direction: column;
@@ -364,16 +405,6 @@ justify-content: space-between;
         display: flex;
     } 
 }
-=======
-    @media screen and (min-width: 400px) {
-        .flex{
-            flex-direction: column;
-            display: flex;
-            width: 100vw;
-
-        }
-    }
->>>>>>> d6209519c4c9b88352954bddef17925b92d11999
   
 @media screen and (min-width: 800px) {}
 /* MEDIA QUERIES */
