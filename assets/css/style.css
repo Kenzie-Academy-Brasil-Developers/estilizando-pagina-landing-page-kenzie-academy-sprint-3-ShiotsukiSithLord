@@ -241,6 +241,106 @@ section.secaoCursos ul li img {
     justify-content: center;
 }
 
+.secaoCalendar{
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 1900px;
+    display: flex;
+
+}
+
+.calendario{
+    height: 1750px;
+    flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.calendario li{
+    margin: 0;
+    width: 240px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+}
+
+.calendario li h3{
+    height: 91.8px;
+    padding-bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.calendario li p{
+    align-items: end;
+    text-align: center;
+    display: flex;
+    padding: 0% 5%;
+    height: 189px;
+}
+
+.calendario-data{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    height: 97.2px;
+    color: white;
+    background-color: #00002e;
+    align-items: center;
+}
+
+.calendario-data-rodape{
+    border: black solid 1px;
+    justify-content: space-evenly;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendario-data-rodape span{
+    font-size: 30px;
+}
+
+.calendario-data-rodape button{
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: dodgerblue;
+    padding: 12px 50px;
+}
+
+.secaoContato{
+    margin: 25%;
+    display: flex;
+    width: 250px;
+    background-color: #818181;
+    height: 580px;
+}
+
+.secaoContato-informacoes{
+    width: 246px;
+}
+
+.flex{
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    width: 100vw;
+
+}
+
+.flex-col{
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    height: 250px;
+}
 /* EXTRAS */
 
 /* para estilizar a scrollbar */
@@ -266,11 +366,12 @@ section.secaoCursos ul li img {
 }
 =======
     @media screen and (min-width: 400px) {
-        body{
+        .flex{
             flex-direction: column;
-            width: 100%;
             display: flex;
-        } 
+            width: 100vw;
+
+        }
     }
 >>>>>>> d6209519c4c9b88352954bddef17925b92d11999
   
