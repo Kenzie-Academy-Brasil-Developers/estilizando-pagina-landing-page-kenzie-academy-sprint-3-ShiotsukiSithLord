@@ -107,6 +107,48 @@ main{}
             width: 100%;
             display: flex;
         } 
+
+        .secaoCalendar{
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+        }
+
+        .calendario{
+            width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        }
+
+        .calendario li{
+            margin: 30px 10px;
+            display: flex;
+            flex-direction: column;
+            border: black solid;
+        }
+
+        .calendario-data{
+            height: 50px;
+            color: white;
+            background-color: #00002e;
+        }
+
+        .calendario-data-rodape{
+            border: black solid 1px;
+    justify-content: space-evenly;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        }
+
+        .flex{
+            flex-direction: column;
+            display: flex;
+            width: 100vw;
+
+        }
     }
   
     @media screen and (min-width: 800px) {}
