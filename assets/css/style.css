@@ -218,7 +218,7 @@ div.javascript h2 {
 }
 
 div.flex-col ul li{
-    list-style: disc;
+    list-style: none;
     color: var(--cor-cinza-escuro);
     margin-left: 10%;
     line-height: 1.5;
