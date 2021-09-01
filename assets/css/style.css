@@ -392,15 +392,17 @@ justify-content: space-between;
 }
 
 .secaoContato{
+    flex-direction: column;
     margin: 15% 0%;
     align-items: center;
     display: flex;
     background-color: #818181;
     height: 740px;
+    padding-top: 100px;
 }
 
 .secaoContato h2{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -513,6 +515,7 @@ section.secaoCursos ul li img{
 }
 
 .secaoCursos ul li h3{
+    font-size: 19px;
     margin: 20px 0px;
 }
 
@@ -523,12 +526,13 @@ section.secaoCursos ul li img{
  margin: 0% 2%;
 }
 
+
 .secaoCalendar p{
     margin: 30px 0px;
 }
 
 .calendario{
-    font-size:;
+    
     flex-wrap: nowrap;
     justify-content: center;
     height: inherit;
@@ -538,12 +542,22 @@ section.secaoCursos ul li img{
 .calendario li{
     margin: 0% 1.5%;
     width: 270px;
+
 }
 
 .calendario li p{
     align-self: center;
     width: 270px;
     font-size: 15px;
+}
+
+.calendario li h3{
+    font-size: 19px;
+}
+
+.calendario-data-rodape button{
+    background-color: #007aff;
+    font-size: 32px;
 }
 
 .secaoContato{
@@ -567,6 +581,7 @@ section.secaoCursos ul li img{
 }
 
 .secaoContato .flex-col{
+    font-size: 15px;
     justify-content: flex-start;
     flex-basis: 40%;
 }
@@ -615,6 +630,7 @@ div.flex-col p{
 .secaoContato-informacoes ul li{
     margin-bottom: 11px;
 }
+
 
     body{
         max-width: 100%;
