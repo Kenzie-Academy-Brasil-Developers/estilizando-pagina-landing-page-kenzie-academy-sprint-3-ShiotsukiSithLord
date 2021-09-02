@@ -218,7 +218,7 @@ div.javascript h2 {
 }
 
 div.flex-col ul li{
-    list-style: disc;
+    list-style: none;
     color: var(--cor-cinza-escuro);
     margin-left: 10%;
     line-height: 1.5;
@@ -427,8 +427,10 @@ justify-content: space-between;
 
 
 
-form label{
-    display: none;
+
+
+form ul li{
+    list-style: none;
 }
 
 form input{
@@ -556,6 +558,7 @@ section.secaoCursos ul li img{
 }
 
 .calendario-data-rodape button{
+    color: #FFFFFF;
     background-color: #007aff;
     font-size: 32px;
 }
