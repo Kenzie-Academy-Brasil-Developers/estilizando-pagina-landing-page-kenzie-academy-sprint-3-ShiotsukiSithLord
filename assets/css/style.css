@@ -427,8 +427,10 @@ justify-content: space-between;
 
 
 
-form label{
-    display: none;
+
+
+form ul li{
+    list-style: none;
 }
 
 form input{
@@ -556,6 +558,7 @@ section.secaoCursos ul li img{
 }
 
 .calendario-data-rodape button{
+    color: #FFFFFF;
     background-color: #007aff;
     font-size: 32px;
 }
@@ -631,12 +634,6 @@ div.flex-col p{
     margin-bottom: 11px;
 }
 
-
-
-
-
-
-/* MEDIA QUERIES */
 
     body{
         max-width: 100%;
